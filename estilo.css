@@ -1,0 +1,80 @@
+.Titulo {
+    margin: 10px 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    margin: 10px 10px;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+.Apresentacao {
+    border: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: slategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.RotinaDiaria {
+    border: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    height: 200px;
+    width: 35%;
+    float: left;
+    background-color: olivedrab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Hobbies {
+    border: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    height: 200px;
+    width: 35%;
+    float: right;
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.BandasArtistasFav {
+    border: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    height: 200px;
+    width: 35%;
+    float: left;
+    background-color: rebeccapurple;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Viagens {
+    border: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    height: 200px;
+    width: 35%;
+    float: right;
+    background-color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
