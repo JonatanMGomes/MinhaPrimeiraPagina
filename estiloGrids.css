@@ -1,0 +1,45 @@
+.Cabecalho{
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    color: orangered;
+    text-align: center;
+}
+
+.Conteudo{
+    margin: 1vh auto;
+    height: 80vh;
+    max-width: 90vw;
+    background-color:darkslateblue;
+}
+
+.Card{
+    height: 35vh;
+    width: 40vw;
+    margin: 2.5vh 2.5vw;
+    background-color: orangered;
+    float: left;
+}
+
+.Cabecalho3C{
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: darkslateblue;
+    color: orangered;
+    text-align: center;
+}
+
+.Conteudo3C{
+    margin: 1vh auto;
+    height: 70vh;
+    max-width: 90vw;
+    background-color:darkslateblue;
+}
+
+.Card3C{
+    height: 20vh;
+    width: 25vw;
+    margin: 1.5vh 2.5vw;
+    background-color: orangered;
+    float: left;
+}
