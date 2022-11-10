@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="modeloCarro">Modelo do carro</label>
+            <input type="text" id="modeloCarro" name="modelo" placeholder="Ex: Onix Plus LTZ" />
+        </div>
+
+        <div>
+            <label for="marcaCarro">Marca do carro</label>
+            <input type="text" id="marcaCarro" name="marca" placeholder="Ex: GM - Chevrolet" />
+        </div>
+
+        <div>
+            <label for="anoCarro">Ano do carro</label>
+            <input type="text" id="anoCarro" name="ano" placeholder="Ex: 2020" />
+        </div>
+
+        <div>
+            <label for="quilometragemCarro">Quilometragem do carro</label>
+            <input type="text" id="quilometragemCarro" name="quilometragem" placeholder="Ex: 10000" />
+        </div>
+
+        <div>
+            <label for="valorCarro">Valor do carro</label>
+            <input type="text" id="valorCarro" name="valor" placeholder="Ex: 95790,00" />
+        </div>
+
+        <div>
+            <span>Estado de Conservação:</span>
+            <label for="usado">Usado</label>
+            <input type="radio" id="usado" name="conservacao" value="usado">
+            <label for="semi-novo">Semi-Novo</label>
+            <input type="radio" id="semi-novo" name="conservacao" value="semi-novo">
+            <label for="novo">Novo</label>
+            <input type="radio" id="novo" name="conservacao" value="novo">
+        </div>
+
+        <div>
+            <label for="finalPlaca">Informe o numero final da placa</label>
+            <select name="finalPlaca" id="finalPlaca">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+
+        <div>
+            <span>Opcionais:</span>
+            <label for="abs">ABS</label>
+            <input type="checkbox" name="abs" id="abs" value="ABS">
+            <label for="ar">Ar-condicionado</label>
+            <input type="checkbox" name="ar" id="ar" value="ar">
+            <label for="airbag">Airbag</label>
+            <input type="checkbox" name="airbag" id="airbag" value="airbag">
+            <label for="direcaoH">Direção Hidraulica</label>
+            <input type="checkbox" name="direcao" id="direcaoH" value="direcaoH">
+            <label for="direcaoE">Direção Eletrica</label>
+            <input type="checkbox" name="direcao" id="direcaoE" value="direcaoE">
+            <label for="startStop">Start Stop</label>
+            <input type="checkbox" name="startStop" id="startStop" value="startStop">
+            <label for="4x4">Tração 4X4</label>
+            <input type="checkbox" name="tracao" id="4x4" value="4x4">
+        </div>
+        
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+
+</html>
